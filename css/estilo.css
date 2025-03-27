@@ -52,6 +52,9 @@
              height: 100vh;
              display: flex;
              align-items: center;
+             height: 100vh;
+    padding-bottom: 100px; /* Espacio extra inferior */
+    box-sizing: border-box; /* Incluye el padding en la altura total */
         }
 
 
@@ -332,6 +335,7 @@
             flex-direction: column;
             padding: 20px;
             box-sizing: border-box;
+          
         }
 
         #sobremi .contenido {
@@ -796,7 +800,7 @@
         /* *********************/
 
         #final {
-            background-color: #82A46B;
+            background: darkblue;
             text-align: center;
             padding: 13px 0;
             height: 15vh;
