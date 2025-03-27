@@ -71,7 +71,7 @@
             width: 300px;  /* Ancho fijo */
             height: auto;  /* Altura proporcional */
             object-fit: cover; /* o contain/scale-down */
-            transform: scale(0.4); /* Reduce al 70% */
+            transform: scale(0.7); /* Reduce al 70% */
             transform-origin: center;
         }
         
