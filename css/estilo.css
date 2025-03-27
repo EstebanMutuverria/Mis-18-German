@@ -53,13 +53,14 @@
              display: flex;
              align-items: center;
              height: 100vh;
-    padding-bottom: 100px; /* Espacio extra inferior */
-    box-sizing: border-box; /* Incluye el padding en la altura total */
+            padding-bottom: 100px; /* Espacio extra inferior */
+            box-sizing: border-box; /* Incluye el padding en la altura total */
+            
         }
 
 
         #inicio .contenido header {
-            background-color: #82A46B;
+            background-color: black;
             position: fixed;
             width: 100%;
             z-index: 100;
@@ -233,7 +234,7 @@
         }
         
         #inicio .presentacion .contenedor-confirmacion a:hover {
-            background: #6e8e57; /* Cambio de color al pasar el mouse */
+           
             transform: translateY(-3px); /* Efecto de elevación */
         }
         
