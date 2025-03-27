@@ -65,6 +65,15 @@
             z-index: 100;
             top: 0;
         }
+
+        .click{
+            border-top: 100px;
+            width: 300px;  /* Ancho fijo */
+            height: auto;  /* Altura proporcional */
+            object-fit: cover; /* o contain/scale-down */
+            transform: scale(0.4); /* Reduce al 70% */
+            transform-origin: center;
+        }
         
         #inicio .contenido header .contenido-header {
             max-width: 1100px;
